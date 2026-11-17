@@ -6,7 +6,7 @@
 ### Deterministic Invariants & Verifiable Infrastructure for Autonomous Systems
 
 [![License](https://img.shields.io/badge/License-Apache%202.0%20%7C%20MIT-blue.svg)](https://github.com/invarcore)
-[![Ecosystem](https://img.shields.io/badge/Ecosystem-6%20Active%20Engines-9B51E0.svg)](https://github.com/invarcore)
+[![Ecosystem](https://img.shields.io/badge/Ecosystem-8%20Active%20Engines-9B51E0.svg)](https://github.com/invarcore)
 [![Status](https://img.shields.io/badge/Status-Production%20Hardened-brightgreen.svg)](https://github.com/invarcore)
 [![Security](https://img.shields.io/badge/Security-Zero--Trust%20Envelopes-00D2FF.svg)](https://github.com/invarcore)
 
@@ -72,6 +72,8 @@ Autonomous agents and RAG pipelines are stochastic and prone to silent drift, in
 | **[`enterprise-adapters`](https://github.com/invarcore/knowledge-fabric-enterprise-adapters)** | Fail-closed SaaS document ingestion with automated PII and DLP secret scrubbing. | *Enterprise credentials and PII never touch vector stores.* | Python, Confluence/Jira/Notion APIs |
 | **[`unloop`](https://github.com/invarcore/unloop)** | Time-travel debugger for AI agents — cognitive rewind & anti-oscillation watchdog. | *Agent reasoning loops must terminate deterministically.* | Python, SQLite WAL, Terminal UI |
 | **[`cachealign`](https://github.com/invarcore/cachealign)** | Autonomous prompt cache optimizer & prefix alignment middleware for LLM agents. | *Prompt prefixes remain stable across turns for max cache hits.* | Python, Proxy Middleware, Redis/Memory |
+| **[`git-antique`](https://github.com/invarcore/git-antique)** | Deterministic two-tier semantic AST diff router & RFC 8785 receipt generator. | *Disjoint AST partition equivalence holds across cosmetic PR churn.* | Python, AST, Git CLI, RFC 8785 |
+| **[`c3-claim-checker`](https://github.com/invarcore/c3-claim-checker)** | Deterministic zero-LLM vulnerability claim & Git-tree grounding verifier. | *Vulnerability claims must be deterministically grounded in target ASTs.* | Python, Git AST, Multi-Language |
 
 ---
 
